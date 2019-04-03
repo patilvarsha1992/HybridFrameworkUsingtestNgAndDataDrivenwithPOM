@@ -1,0 +1,15 @@
+
+<suite name="Leadfeert Automation TestSuite" verbose="1" >
+ 
+  <listeners>
+    <listener class-name="com.qa.ExtendReportListner.ExtentReporterNG"/>
+  </listeners>
+  
+  <test name="leadFerret TestCases">
+    <classes>
+      <class name="com.qa.test.HomePageTest"/>
+      <class name="com.qa.test.LoginPageTest"/>
+      <class name="com.qa.test.RegistrationPageTest"/>
+    </classes>
+  </test>
+</suite>
